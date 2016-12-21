@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00EFD90953A85803FC4E596E /* Pods_carneAcme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6A938DC56F6654E67D3B7 /* Pods_carneAcme.framework */; };
+		C4B33A951E09A1D600798397 /* MeatMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B33A941E09A1D600798397 /* MeatMarker.swift */; };
+		C4B33A971E09A62500798397 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B33A961E09A62500798397 /* GooglePlace.swift */; };
+		C4B33A991E09A64500798397 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B33A981E09A64500798397 /* GoogleDataProvider.swift */; };
 		C4D24AD21E0170650037ECEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AD11E0170650037ECEB /* AppDelegate.swift */; };
-		C4D24AD41E0170650037ECEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AD31E0170650037ECEB /* ViewController.swift */; };
 		C4D24AD71E0170650037ECEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D24AD51E0170650037ECEB /* Main.storyboard */; };
 		C4D24AD91E0170650037ECEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D24AD81E0170650037ECEB /* Assets.xcassets */; };
 		C4D24ADC1E0170650037ECEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D24ADA1E0170650037ECEB /* LaunchScreen.storyboard */; };
 		C4D24AE71E0170650037ECEB /* carneAcmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AE61E0170650037ECEB /* carneAcmeTests.swift */; };
 		C4D24AF21E0170650037ECEB /* carneAcmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AF11E0170650037ECEB /* carneAcmeUITests.swift */; };
+		C4D24B001E01724B0037ECEB /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */; };
+		C4D24B021E0172690037ECEB /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24B011E0172690037ECEB /* ShopsViewController.swift */; };
+		C4D24B041E01727F0037ECEB /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24B031E01727F0037ECEB /* TweetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395B8D3AFB6A6C96AA75CF18 /* Pods-carneAcme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carneAcme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carneAcme/Pods-carneAcme.debug.xcconfig"; sourceTree = "<group>"; };
+		7A895D1D5BB4E9FF40C92F92 /* Pods-carneAcme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carneAcme.release.xcconfig"; path = "Pods/Target Support Files/Pods-carneAcme/Pods-carneAcme.release.xcconfig"; sourceTree = "<group>"; };
+		A4F6A938DC56F6654E67D3B7 /* Pods_carneAcme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carneAcme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B33A941E09A1D600798397 /* MeatMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeatMarker.swift; sourceTree = "<group>"; };
+		C4B33A961E09A62500798397 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		C4B33A981E09A64500798397 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
 		C4D24ACE1E0170650037ECEB /* carneAcme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carneAcme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D24AD11E0170650037ECEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4D24AD31E0170650037ECEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4D24AD61E0170650037ECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4D24AD81E0170650037ECEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D24ADB1E0170650037ECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		C4D24AED1E0170650037ECEB /* carneAcmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carneAcmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D24AF11E0170650037ECEB /* carneAcmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carneAcmeUITests.swift; sourceTree = "<group>"; };
 		C4D24AF31E0170650037ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		C4D24B011E0172690037ECEB /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
+		C4D24B031E01727F0037ECEB /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EFD90953A85803FC4E596E /* Pods_carneAcme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C4F5ABAB96EA4880F965580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6A938DC56F6654E67D3B7 /* Pods_carneAcme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B33A9A1E09A65900798397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4B33A981E09A64500798397 /* GoogleDataProvider.swift */,
+				C4B33A961E09A62500798397 /* GooglePlace.swift */,
+				C4B33A941E09A1D600798397 /* MeatMarker.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C4D24AC51E0170650037ECEB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				C4D24AE51E0170650037ECEB /* carneAcmeTests */,
 				C4D24AF01E0170650037ECEB /* carneAcmeUITests */,
 				C4D24ACF1E0170650037ECEB /* Products */,
+				CA707A045428ED1AB3D009DB /* Pods */,
+				3C4F5ABAB96EA4880F965580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +132,9 @@
 		C4D24AD01E0170650037ECEB /* carneAcme */ = {
 			isa = PBXGroup;
 			children = (
+				C4B33A9A1E09A65900798397 /* Model */,
+				C4D24B051E0172930037ECEB /* Controllers */,
 				C4D24AD11E0170650037ECEB /* AppDelegate.swift */,
-				C4D24AD31E0170650037ECEB /* ViewController.swift */,
 				C4D24AD51E0170650037ECEB /* Main.storyboard */,
 				C4D24AD81E0170650037ECEB /* Assets.xcassets */,
 				C4D24ADA1E0170650037ECEB /* LaunchScreen.storyboard */,
@@ -125,6 +161,25 @@
 			path = carneAcmeUITests;
 			sourceTree = "<group>";
 		};
+		C4D24B051E0172930037ECEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */,
+				C4D24B011E0172690037ECEB /* ShopsViewController.swift */,
+				C4D24B031E01727F0037ECEB /* TweetsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CA707A045428ED1AB3D009DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395B8D3AFB6A6C96AA75CF18 /* Pods-carneAcme.debug.xcconfig */,
+				7A895D1D5BB4E9FF40C92F92 /* Pods-carneAcme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4D24AF61E0170650037ECEB /* Build configuration list for PBXNativeTarget "carneAcme" */;
 			buildPhases = (
+				C9F5784C2A8EC5DFE52DD1F6 /* [CP] Check Pods Manifest.lock */,
 				C4D24ACA1E0170650037ECEB /* Sources */,
 				C4D24ACB1E0170650037ECEB /* Frameworks */,
 				C4D24ACC1E0170650037ECEB /* Resources */,
+				D358A3D4AE8DD456823FDBB1 /* [CP] Embed Pods Frameworks */,
+				5191C3C8DEC3E64DC937668D /* [CP] Copy Pods Resources */,
+				C40997D71E085F1D002830EA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,6 +252,7 @@
 				TargetAttributes = {
 					C4D24ACD1E0170650037ECEB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7PT7X3EV7C;
 						ProvisioningStyle = Automatic;
 					};
 					C4D24AE11E0170650037ECEB = {
@@ -254,12 +314,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5191C3C8DEC3E64DC937668D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carneAcme/Pods-carneAcme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40997D71E085F1D002830EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 00428cae3f20bf3b6ee35a3265b446082d03a872 13907c7be6b37158021186534d18ef386b6430c682cc7a1688b79f67d4828728";
+		};
+		C9F5784C2A8EC5DFE52DD1F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D358A3D4AE8DD456823FDBB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carneAcme/Pods-carneAcme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4D24ACA1E0170650037ECEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D24AD41E0170650037ECEB /* ViewController.swift in Sources */,
+				C4D24B041E01727F0037ECEB /* TweetsViewController.swift in Sources */,
+				C4B33A991E09A64500798397 /* GoogleDataProvider.swift in Sources */,
+				C4B33A951E09A1D600798397 /* MeatMarker.swift in Sources */,
+				C4B33A971E09A62500798397 /* GooglePlace.swift in Sources */,
+				C4D24B021E0172690037ECEB /* ShopsViewController.swift in Sources */,
+				C4D24B001E01724B0037ECEB /* PresentationViewController.swift in Sources */,
 				C4D24AD21E0170650037ECEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +536,11 @@
 		};
 		C4D24AF71E0170650037ECEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395B8D3AFB6A6C96AA75CF18 /* Pods-carneAcme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PT7X3EV7C;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = carneAcme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvaroapunto.carneAcme;
@@ -422,8 +551,11 @@
 		};
 		C4D24AF81E0170650037ECEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A895D1D5BB4E9FF40C92F92 /* Pods-carneAcme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PT7X3EV7C;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = carneAcme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alvaroapunto.carneAcme;
@@ -505,6 +637,7 @@
 				C4D24AF81E0170650037ECEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4D24AF91E0170650037ECEB /* Build configuration list for PBXNativeTarget "carneAcmeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +646,7 @@
 				C4D24AFB1E0170650037ECEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4D24AFC1E0170650037ECEB /* Build configuration list for PBXNativeTarget "carneAcmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +655,7 @@
 				C4D24AFE1E0170650037ECEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

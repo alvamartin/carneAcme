@@ -6,7 +6,13 @@
 //  Copyright © 2016 Álvaro Martín. All rights reserved.
 //
 
+// google places api key: AIzaSyBJxjmD3V8f2VABG0cjSd9BtC537hUfKn0
+
 import UIKit
+import GoogleMaps
+import GooglePlaces
+import Fabric
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyAdsb3xIZrR-gtslHyijAEYp_rIhfvwLD8")
+        GMSPlacesClient.provideAPIKey("AIzaSyAdsb3xIZrR-gtslHyijAEYp_rIhfvwLD8")
+        
+        Fabric.with([Twitter.self])
+        
         return true
     }
 
