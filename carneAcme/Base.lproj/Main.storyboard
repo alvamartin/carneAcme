@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tiendas-->
+        <!--Shops-->
         <scene sceneID="iNG-GX-GP1">
             <objects>
                 <viewController id="GWb-bP-uLe" customClass="ShopsViewController" customModule="carneAcme" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                             <constraint firstItem="oHW-6x-0Tl" firstAttribute="top" secondItem="qQe-gr-A0g" secondAttribute="bottom" id="vkD-9D-A65"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tiendas" id="io9-dI-pGH"/>
+                    <tabBarItem key="tabBarItem" title="Shops" id="io9-dI-pGH"/>
                     <connections>
                         <outlet property="mapView" destination="qQe-gr-A0g" id="vJF-mh-Tdb"/>
                     </connections>
@@ -44,24 +44,24 @@
             </objects>
             <point key="canvasLocation" x="599" y="477"/>
         </scene>
-        <!--Presentación-->
-        <scene sceneID="NrP-0P-PeN">
+        <!--Flickr-->
+        <scene sceneID="a7F-IX-9A0">
             <objects>
-                <viewController id="ZaX-IB-wxJ" customClass="PresentationViewController" customModule="carneAcme" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="voN-Bw-pRH" customClass="FlickrViewController" customModule="carneAcme" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7rR-pM-xic"/>
-                        <viewControllerLayoutGuide type="bottom" id="b1n-LK-FQ1"/>
+                        <viewControllerLayoutGuide type="top" id="luu-X1-C97"/>
+                        <viewControllerLayoutGuide type="bottom" id="jYl-GH-hoW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qoZ-0P-7tl" customClass="UIScrollView">
+                    <view key="view" contentMode="scaleToFill" id="LRq-Sf-wBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Presentación" id="Za5-Cd-h7v"/>
+                    <tabBarItem key="tabBarItem" title="Flickr" id="iig-HR-iQx"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uQM-LW-ZnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z25-9C-XrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="578" y="-381"/>
+            <point key="canvasLocation" x="572" y="-258"/>
         </scene>
         <!--Tweets-->
         <scene sceneID="lcT-gx-UW4">
@@ -92,7 +92,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ZaX-IB-wxJ" kind="relationship" relationship="viewControllers" id="EHO-E4-Oj1"/>
+                        <segue destination="voN-Bw-pRH" kind="relationship" relationship="viewControllers" id="Ly0-Li-vNV"/>
                         <segue destination="GWb-bP-uLe" kind="relationship" relationship="viewControllers" id="T6W-IG-x2I"/>
                         <segue destination="jmu-PL-oH3" kind="relationship" relationship="viewControllers" id="bYY-5T-Y0N"/>
                     </connections>

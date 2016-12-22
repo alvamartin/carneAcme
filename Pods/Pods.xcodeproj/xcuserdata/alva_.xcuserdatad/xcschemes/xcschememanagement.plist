@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyXMLParser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5FCB40B918C5721B0BA362A0464013F6</key>
+		<key>17F515EAE14D65C8AA0493A61ADE0200</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7FE4ECEC1D728788CF4CA156E98A0F0E</key>
+		<key>3497D9B765C1860D87709DBE6A2C5389</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D946AED1257ADAD79B541D358CA05C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

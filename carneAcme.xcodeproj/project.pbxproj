@@ -17,9 +17,10 @@
 		C4D24ADC1E0170650037ECEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D24ADA1E0170650037ECEB /* LaunchScreen.storyboard */; };
 		C4D24AE71E0170650037ECEB /* carneAcmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AE61E0170650037ECEB /* carneAcmeTests.swift */; };
 		C4D24AF21E0170650037ECEB /* carneAcmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AF11E0170650037ECEB /* carneAcmeUITests.swift */; };
-		C4D24B001E01724B0037ECEB /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */; };
+		C4D24B001E01724B0037ECEB /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24AFF1E01724B0037ECEB /* FlickrViewController.swift */; };
 		C4D24B021E0172690037ECEB /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24B011E0172690037ECEB /* ShopsViewController.swift */; };
 		C4D24B041E01727F0037ECEB /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D24B031E01727F0037ECEB /* TweetsViewController.swift */; };
+		C4D459C61E0B6E8B00F1F8AC /* FlickrPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D459C51E0B6E8B00F1F8AC /* FlickrPic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +59,10 @@
 		C4D24AED1E0170650037ECEB /* carneAcmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carneAcmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D24AF11E0170650037ECEB /* carneAcmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carneAcmeUITests.swift; sourceTree = "<group>"; };
 		C4D24AF31E0170650037ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		C4D24AFF1E01724B0037ECEB /* FlickrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrViewController.swift; sourceTree = "<group>"; };
 		C4D24B011E0172690037ECEB /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
 		C4D24B031E01727F0037ECEB /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		C4D459C51E0B6E8B00F1F8AC /* FlickrPic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C4B33A981E09A64500798397 /* GoogleDataProvider.swift */,
 				C4B33A961E09A62500798397 /* GooglePlace.swift */,
 				C4B33A941E09A1D600798397 /* MeatMarker.swift */,
+				C4D459C51E0B6E8B00F1F8AC /* FlickrPic.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -164,7 +167,7 @@
 		C4D24B051E0172930037ECEB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C4D24AFF1E01724B0037ECEB /* PresentationViewController.swift */,
+				C4D24AFF1E01724B0037ECEB /* FlickrViewController.swift */,
 				C4D24B011E0172690037ECEB /* ShopsViewController.swift */,
 				C4D24B031E01727F0037ECEB /* TweetsViewController.swift */,
 			);
@@ -381,11 +384,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D24B041E01727F0037ECEB /* TweetsViewController.swift in Sources */,
+				C4D459C61E0B6E8B00F1F8AC /* FlickrPic.swift in Sources */,
 				C4B33A991E09A64500798397 /* GoogleDataProvider.swift in Sources */,
 				C4B33A951E09A1D600798397 /* MeatMarker.swift in Sources */,
 				C4B33A971E09A62500798397 /* GooglePlace.swift in Sources */,
 				C4D24B021E0172690037ECEB /* ShopsViewController.swift in Sources */,
-				C4D24B001E01724B0037ECEB /* PresentationViewController.swift in Sources */,
+				C4D24B001E01724B0037ECEB /* FlickrViewController.swift in Sources */,
 				C4D24AD21E0170650037ECEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

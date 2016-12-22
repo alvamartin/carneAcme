@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "carneAcme/GoogleDataProvider.swift"
-            timestampString = "503972791.324227"
+            filePath = "carneAcme/PresentationViewController.swift"
+            timestampString = "504124387.985739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "fetchPlacesNearCoordinate(coordinate:radius:types:completion:)"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchFlickrPicsId()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

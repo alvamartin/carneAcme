@@ -39,9 +39,6 @@ class GoogleDataProvider {
   func fetchPlacesNearCoordinate(coordinate: CLLocationCoordinate2D, radius: Double, types:[String], completion: @escaping (([GooglePlace]) -> Void)) -> ()
   {
     var urlString="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(coordinate.latitude),\(coordinate.longitude)&radius=1000&type=grocery_or_supermarket&keyword=cruise&key=AIzaSyAc7i7qSIlT_w2DqmPRsU4ePiPDjFx1KCg"
-    
-//    let typesString = types.count > 0 ? types.joined(separator: "|") : "food"
-//    urlString += "&types=\(typesString)"
 
     urlString = urlString.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
     
