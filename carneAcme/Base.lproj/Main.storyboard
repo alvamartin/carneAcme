@@ -35,7 +35,7 @@
                             <constraint firstItem="oHW-6x-0Tl" firstAttribute="top" secondItem="qQe-gr-A0g" secondAttribute="bottom" id="vkD-9D-A65"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shops" id="io9-dI-pGH"/>
+                    <tabBarItem key="tabBarItem" title="Shops" image="location" selectedImage="location_sel" id="io9-dI-pGH"/>
                     <connections>
                         <outlet property="mapView" destination="qQe-gr-A0g" id="vJF-mh-Tdb"/>
                     </connections>
@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Flickr" id="iig-HR-iQx"/>
+                    <tabBarItem key="tabBarItem" title="Flickr" image="pics" selectedImage="pics_sel" id="iig-HR-iQx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z25-9C-XrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +76,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tweets" id="emo-Xe-tH2"/>
+                    <tabBarItem key="tabBarItem" title="Tweets" image="twitter" selectedImage="twitter_sel" id="emo-Xe-tH2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojw-Lr-IrQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,4 +102,12 @@
             <point key="canvasLocation" x="-289" y="23"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="location" width="26" height="26"/>
+        <image name="location_sel" width="26" height="26"/>
+        <image name="pics" width="26" height="26"/>
+        <image name="pics_sel" width="26" height="26"/>
+        <image name="twitter" width="26" height="26"/>
+        <image name="twitter_sel" width="26" height="26"/>
+    </resources>
 </document>
