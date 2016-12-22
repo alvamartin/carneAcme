@@ -18,18 +18,14 @@ class ShopsViewController: UIViewController, CLLocationManagerDelegate {
     var coordenadas = CLLocationCoordinate2D()
     
     let dataProvider = GoogleDataProvider()
-    let searchRadius: Double = 1000
+    let searchRadius: Double = 10000
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        coordenadas.latitude = 28.466667
-        coordenadas.longitude = -16.25
-        let camera = GMSCameraPosition.camera(withLatitude: coordenadas.latitude, longitude: coordenadas.longitude, zoom: 15)
-        mapView.camera = camera
         mapView.isMyLocationEnabled = true
         mapView.settings.scrollGestures = true
         mapView.settings.zoomGestures = true
-        
+        mapView.settings.myLocationButton = true
 
         // Pedimos permiso al usuario para usar su localización
         self.locationManager.requestAlwaysAuthorization()
@@ -42,17 +38,16 @@ class ShopsViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         fetchNearbyPlaces(coordinate: coordenadas)
-        
-       // self.view = mapView
-
+    
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
-        coordenadas = locValue
-        //mapView.camera = GMSCameraPosition(target: locValue, zoom: 10, bearing: 0, viewingAngle: 0)
-        print("locations = \(locValue.latitude) \(locValue.longitude)")
-        
+        if let location = locations.first {
+            mapView.camera = GMSCameraPosition(target: location.coordinate, zoom: 15, bearing: 0, viewingAngle: 0)
+            locationManager.stopUpdatingLocation()
+        }
+        fetchNearbyPlaces(coordinate: locValue)
     }
     
     
